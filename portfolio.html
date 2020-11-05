@@ -5,17 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page - Marissa Wilson</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <style>
-      #img1, #img2, #img3, #img4 {
-        padding: 30px;
-        margin-left: 30px;
-      }
-      h1 {
-        margin-left: 30px;
-        padding: 30;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
   </head>
 
@@ -51,17 +41,103 @@
 <body>
 
     <h1>Portfolio</h1>
+    <br>
 
-    <container class="container">
-      <br></br>
-      <img id="img1" src="https://via.placeholder.com/350" alt="Placeholder img">
-      <br></br>
-      <img id="img2" src="https://via.placeholder.com/350" alt="Placeholder img">
-      <br></br>
-      <img id="img3" src="https://via.placeholder.com/350" alt="Placeholder img">
-      <br></br>
-      <img id="img4" src="https://via.placeholder.com/350" alt="Placeholder img">
+    <div id="project1" class="container">
+      <h2>Project 1 - What's For Dinner?</h2>
+      <p><b>Purpose:</b> To combine restaurant finding and recipe finding into one web application</p>
+      
+      <p> <b>Usage:</b>
+        <ul>
+          <li>Makes calls to server APIs: Yelp Fusion API and EDAMAM's Recipe Search API</li>
+          <li>Checks for user inputs and set as API parameters</li>
+          <li>Shows results based on user inputs</li>
+        </ul>
+      </p>
 
-    </container>
+      <p>This project consists of the following files:
+        <ul>
+          <li><b>index.html:</b> Restaurant finder page and the landing page when it is first loaded</li>
+          <li><b>recipeFinder.html:</b> Recipe finder page</li>
+          <li><b>script.js:</b> Manage API calls to Yelp Fusion API and show results for index.html/Restaurant finder page</li>
+          <li><b>script2.js:</b> Manage API calls to EDAMAM's Recipe Search API and show results for recipeFinder.html</li>
+          <li><b>style.css:</b> General styling of index.html and recipeFinder.html</li>
+        </ul>
+        Made using HTML5, CSS, Javascript, jQuery, Bootstrap, Yelp Fusion API and EDAMAM's Recipe Search API
+      </p>
+      <p>Link to deployed application: <a href="https://marissarrwilson.github.io/Proj1/">https://marissarrwilson.github.io/Proj1/</a></p>
+     
+      <h3>Homepage - Restaurant Finder</h3>
+      <img class="responsive" src="images/wfd1.jpg" width="700px">
+
+      <br></br>
+      <br>
+
+      <h3>Results Page</h3>
+      <img class="responsive" src="images/wfd2.jpg" width="700px">
+
+      <br></br>
+      <br>
+
+      <h3>Recipe Finder Page</h3>
+      <img class="responsive" src="images/wfd3.jpg" width="700px">
+    </div>
+
+    <hr>
+
+    <div id="Password-Generator" class="container">
+      <h2>Password Generator</h2>
+      <p><b>Usage:</b> This password generator will provide the user with a password suggestion based on the criteria chosen by the user via a series of prompts.</p>
+      <p>Link to deployed application: <a href="https://marissarrwilson.github.io/PasswordGenerator/">https://marissarrwilson.github.io/PasswordGenerator/</a></p>
+
+      <p><b>Method</b></p>
+      <p>
+        I made this password generator using HTML, CSS and JavaScript files. I did not make changes to the HTML and CSS files, and added code to the JavaScript file.
+        <ul>
+          <li>I started by making arrays of the variables that would be used to generate the password: upper case letters, lower case letters, numbers and special characters.</li>
+          <li>I then made an array of confirmation prompts for the above mentioned arrays/variables.</li>
+          <li>Afterwards, I created a loop if the user entered a value outside of the paramaters with if/else functions.</li>
+        </ul>
+      </p>
+
+      <h3>Homepage</h3>
+      <img class="responsive" src="images/Homepage.png" width="700px">
+
+      <br></br>
+      <br>
+
+      <h3>First Prompt</h3>
+      <img class="responsive" src="images/Prompt-1.png" width="700px">
+
+      <br></br>
+      <br>
+
+      <h3>Result</h3>
+      <img class="responsive" src="images/PasswordResult.png" width="700px">
+
+    </div>
+
+    <hr>
+
+    <div id="Weather-Dashboard" class="container">
+      <h2>Weather Dashboard</h2>
+      <p><b>Description</b></p>
+      <p>
+        <ul>
+          <li>This application is a weather dashboard that allows the user to search for a city and view its current weather along with the forecast predictions for the next 5 days</li>
+          <li>This app was made using HTML, CSS, JavaScript & an API to retrieve specific information on the weather (open weather map).</li>
+        </ul>
+      </p>
+      
+      <p><b>Usage</b></p>
+      <p>
+        Type in a city's name to view its current weather. The application can be accessed via the following link: <a href='https://marissarrwilson.github.io/Weather-Dashboard/'>https://marissarrwilson.github.io/Weather-Dashboard/</a>
+      </p>
+
+      <h3>Screenshot</h3>
+      <img class="responsive" src="images/Screenshot1.png" width="700px">
+
+
+    </div>
 </body>
 </html>
