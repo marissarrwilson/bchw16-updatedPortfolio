@@ -22,6 +22,15 @@ The user can navigate the site using the tabs on the navbar - "About Me", "Portf
 
 ## Screenshots
 
+* index.html
+![Index.html page](images/16-home)
+
+* portfolio.html
+![portfolio.html page](images/16-portfolio)
+
+* contact.html
+![contact.html page](images/16-contact)
+
 ## Credits
 
 Individual work by me, Marissa Wilson, with the help of...
