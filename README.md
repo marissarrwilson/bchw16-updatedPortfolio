@@ -1,5 +1,14 @@
 # bchw16-updatedPortfolio
 
+## Table of Contents
+
+* [Description](#description)
+* [Usage](#usage)
+* [Screenshots](#screenshots)
+* [Credits](#credits)
+* [Questions](#questions)
+* [License](#license)
+
 ## Description
 
 This is my personal portfolio, which includes links to my Linkedin, github projects and repositories and resume.
@@ -11,23 +20,20 @@ Link to deployed application:
 
 The user can navigate the site using the tabs on the navbar - "About Me", "Portfolio" and "Contact".
 
+## Screenshots
+
 ## Credits
 
 Individual work by me, Marissa Wilson, with the help of...
 * Instructors Fil and Daniel
 * The Boolean Bros
 
-# Screenshots
+## Questions
 
+For any questions regarding this project, I can be reached at wilson.marissarose@gmail.com.
 
-## About Me Page
-
-
-## Portfolio Page
-
-
-## Contact Page
-
+For additional information, please visit my GitHub profile here:
+[GitHub](https://github.com/marissarrwilson)
 
 ## License
 
